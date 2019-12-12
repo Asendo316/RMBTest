@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RMBTestRestAPI</name>
+    </assembly>
+    <members>
+        <member name="M:RMBTestRestAPI.Controllers.v1.auth.AuthenticationController.RegisterUser(RMBTestRestAPI.Contracts.v1.Requests.auth.UserRegistrationRequest)">
+            <summary>
+            Creates New Account For User
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.auth.AuthenticationController.LoginUser(RMBTestRestAPI.Contracts.v1.Requests.auth.UserLoginRequest)">
+            <summary>
+            Login For User
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.auth.AuthenticationController.Refresh(RMBTestRestAPI.Contracts.v1.Requests.auth.RefreshTokenRequest)">
+            <summary>
+            Refresh JWT Token
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.auth.AuthenticationController.SendPasswordResetLink(RMBTestRestAPI.Contracts.v1.Requests.auth.ResetPasswordRequest)">
+            <summary>
+            Reset Password
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.AccountsController.GetAllAccounts">
+            <summary>
+            Get All Accounts
+            </summary>
+            
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.AccountsController.GetFavouritesForUserId(System.Int32)">
+            <summary>
+            Check your account balance
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.UserProfileController.GetAll">
+            <summary>
+            Get All User Profiles
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.UserProfileController.GetById(System.Guid)">
+            <summary>
+            Get User Profile Details
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.UserProfileController.UpdateProfile(System.Guid,RMBTestRestAPI.Contracts.v1.Requests.user.profile.UpdateProfileRequest)">
+            <summary>
+            Update User Profile
+            </summary>
+        </member>
+        <member name="M:RMBTestRestAPI.Controllers.v1.user.profile.UserProfileController.Delete(System.Guid)">
+            <summary>
+            Delete User Profile
+            </summary>
+        </member>
+    </members>
+</doc>
